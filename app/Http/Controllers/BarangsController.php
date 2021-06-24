@@ -97,6 +97,6 @@ class BarangsController extends Controller
 
         view()->share('list_barang', $list_barang);
         $pdf = PDF::loadview('list_barang_pdf');
-        return $pdf->download('data.pdf');
+        return $pdf->download('data_barang.pdf');
     }
 }
