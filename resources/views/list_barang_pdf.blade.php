@@ -1,52 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-#customers {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-#customers td, #customers th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#customers tr:nth-child(even){background-color: #f2f2f2;}
-
-#customers tr:hover {background-color: #ddd;}
-
-#customers th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #4CAF50;
-  color: white;
-}
-</style>
-</head>
-<body>
-<h1> Data Barang </h1>
-<table align="center" width="80%" border="1">
-  <tr>
-    <th>No</th>
-    <th>Katagori Barang</th>
-    <th>Nama Barang</th>
-    <th>Jumlah Stok</th>
-  </tr>
-  @php
-  @endphp
-
-  @foreach ($list_barang as $key => $barang)
-    <tr>
-        <td>{{ $key+1 }}</td>
-        <td>{{ $barang->katagori_barang }}</td>
-        <td>{{ $barang->nama_barang }}</td>
-        <td>{{ $barang->jumlah_stok }}</td>
-    </tr>
-  @endforeach
-</table>
-
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Export PDF</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  </head>
+  <body>
+    <table class="table table-bordered">
+    <thead>
+      <tr class="table-info">
+        <th>No</th>
+        <th>Katagori Barang</th>
+        <th>Nama Barang</th>
+        <th>Jumlah Stok</th>
+        <th>Image</th>
+      </tr>
+      </thead>
+      <tbody>
+        @foreach ($list_barang as $key => $barang)
+        <tr>
+            <td>{{ $key+1 }}</td>
+            <td>{{ $barang->katagori_barang }}</td>
+            <td>{{ $barang->nama_barang }}</td>
+            <td>{{ $barang->jumlah_stok }}</td>
+            <td>{{ $barang->image }}</td>
+        </tr>
+        @endforeach
+      </tbody>
+    </table>
+  </body>
 </html>
