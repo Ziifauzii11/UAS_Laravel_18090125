@@ -15,7 +15,7 @@
     </tr>
     <tr>
       <th>Link Aplikasi</th>
-      <td><a href="https://databarang-18090125.herokuapp.com/"></a></td>
+      <td><a href="https://databarang-18090125.herokuapp.com/">App Kelola Data Barang</a></td>
     </tr>
     <tr>
       <th>Link Drive Laporan</th>
