@@ -1,3 +1,30 @@
+# data_barang
+<table class="table table-bordered">
+  <tbody>
+    <tr>
+      <th style="width: 30%">Nama</th>
+      <td>Dwi Febi Fauzi</td>
+    </tr>
+    <tr>
+      <th>NIM</th>
+      <td>18090125</td>
+    </tr>
+    <tr>
+      <th>Kelas</th>
+      <td>6B</td>
+    </tr>
+    <tr>
+      <th>Link Aplikasi</th>
+      <td><a href="https://databarang-18090125.herokuapp.com/"></a></td>
+    </tr>
+    <tr>
+      <th>Link Drive Laporan</th>
+      <td><a href="https://drive.google.com/file/d/1LPF9UQ-dJshVABAfF6GrTMFz3F8R4WEl/view?usp=sharing">Laporan</a></td>
+    </tr>
+  </tbody>
+</table>
+<br><br>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
