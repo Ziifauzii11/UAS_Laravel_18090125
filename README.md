@@ -1,4 +1,4 @@
-# data_barang
+# Data Barang
 <table class="table table-bordered">
   <tbody>
     <tr>
